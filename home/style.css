@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    background-color: transparent; 
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    width: 20vw;
+    height: 20vw;
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.gridContainer {
+    display: grid;
+    justify-content:center;
+    grid-template-columns: 16vw 16vw 16vw;
+    grid-column-gap: 6vw;
+    grid-row-gap: 1vw;
+    margin-top: 4vw;                                                                                                                                                                                                                      '
+}
+
+#box1 {
+    background-color: black;
+    background-position: center;
+    background-size: 16vw 20vw;
+    display: flex;
+    /* margin-left: 2vw; */
+    background-repeat: no-repeat;
+}
+#box2 {
+    background-color: black;
+    background-position: center;
+    background-size: 16vw 20vw;
+    /* margin-left: -2vw; */
+    display: flex;
+    background-repeat: no-repeat;
+}
+#box3 {
+    background-color: black;
+    background-position: center;
+    background-size: 16vw 20vw;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+#box1Text {
+    margin-left: 3.5vw;
+    margin-top: 8vw;
+    display: flex;
+    opacity: 0;
+    
+}
+#box2Text {
+    margin-left: 7vw; 
+    margin-top: 8vw;
+    display: flex;
+    opacity: 0;
+    
+}
+#box3Text {
+    margin-top: 8vw;
+    margin-left: 7vw;
+    display: flex;
+    opacity: 0;
+      
+}
+
+.textContainer {
+    width: 20vw;
+    height: 20vw;
+}
+
+.textContainer:hover #box1Text{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.textContainer:hover #box2Text{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.textContainer:hover #box3Text{
+    opacity: 1;
+    transition: .5s ease;
+}
