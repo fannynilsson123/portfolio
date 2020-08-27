@@ -1,22 +1,44 @@
 body {
     font-family: 'Open Sans', sans-serif;
     display: grid;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0;
+  }
+
+li {
+    float: right;
+}
+
+li a {
+    background-color: transparent; 
+    text-decoration: none;
+    color: black;
+    padding: 3vw;
+    font-size: 18px;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 100px;
+    padding-left: 5vw;
+    margin: 0;
 }
 
 a {
     background-color: transparent; 
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 30px;
 }
 
 .box {
-    width: 20vw;
+    width: 24vw;
     height: 20vw;
-    background-color: grey;
     text-align: center;
     align-items: center;
     display: flex;
@@ -26,74 +48,28 @@ a {
 .gridContainer {
     display: grid;
     justify-content:center;
-    grid-template-columns: 16vw 16vw 16vw;
+    grid-template-columns: 24vw 24vw 24vw;
     grid-column-gap: 6vw;
-    grid-row-gap: 1vw;
-    margin-top: 4vw;                                                                                                                                                                                                                      '
+    margin-top: 6vw;                                                                                                                                                                                                                      '
 }
 
 #box1 {
-    background-color: black;
     background-position: center;
-    background-size: 16vw 20vw;
+    background-size: 18vw 20vw;
     display: flex;
     /* margin-left: 2vw; */
-    background-repeat: no-repeat;
 }
+
 #box2 {
-    background-color: black;
     background-position: center;
-    background-size: 16vw 20vw;
-    /* margin-left: -2vw; */
+    background-size: 18vw 20vw;
     display: flex;
-    background-repeat: no-repeat;
+    /* margin-left: 2vw; */
 }
+
 #box3 {
-    background-color: black;
     background-position: center;
-    background-size: 16vw 20vw;
+    background-size: 18vw 20vw;
     display: flex;
-    background-repeat: no-repeat;
-}
-
-#box1Text {
-    margin-left: 3.5vw;
-    margin-top: 8vw;
-    display: flex;
-    opacity: 0;
-    
-}
-#box2Text {
-    margin-left: 7vw; 
-    margin-top: 8vw;
-    display: flex;
-    opacity: 0;
-    
-}
-#box3Text {
-    margin-top: 8vw;
-    margin-left: 7vw;
-    display: flex;
-    opacity: 0;
-      
-}
-
-.textContainer {
-    width: 20vw;
-    height: 20vw;
-}
-
-.textContainer:hover #box1Text{
-    opacity: 1;
-    transition: .5s ease;
-}
-
-.textContainer:hover #box2Text{
-    opacity: 1;
-    transition: .5s ease;
-}
-
-.textContainer:hover #box3Text{
-    opacity: 1;
-    transition: .5s ease;
+    /* margin-left: 2vw; */
 }
