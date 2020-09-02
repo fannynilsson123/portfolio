@@ -29,16 +29,20 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 60px;
+    padding-left: 5vw;
+    margin-top: 2vw;
+}
+
 a {
     background-color: transparent; 
     text-decoration: none;
     color: black;
-    font-size: 30px;
+    font-size: 100px;
 }
 
 .box {
-    width: 24vw;
-    height: 20vw;
     text-align: center;
     align-items: center;
     display: flex;
@@ -49,8 +53,8 @@ a {
     display: grid;
     justify-content:center;
     grid-template-columns: 24vw 24vw 24vw;
-    grid-column-gap: 6vw;
-    margin-top: 6vw;                                                                                                                                                                                                                      '
+    grid-column-gap: 6vw;   
+    margin-top: 2vw;                                                                                                                                                                                                                  '
 }
 
 #box1 {

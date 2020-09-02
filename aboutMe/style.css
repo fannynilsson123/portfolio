@@ -28,6 +28,11 @@ li a {
     font-size: 18px;
 }
 
-#left {
+.navbar li:first-child {
     float: left;
+}
+
+.textItem {
+    padding: 5vw;
+    font-size: 18px;
 }

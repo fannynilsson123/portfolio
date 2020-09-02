@@ -10,6 +10,10 @@ h1 {
     padding-top: 5vw;
 }
 
+.textItem {
+    padding-top: 0%;
+}
+
 ul {
     list-style-type: none;
     margin: 2vw;
@@ -28,6 +32,10 @@ li a {
     font-size: 18px;
 }
 
-#left {
+.navbar li:first-child {
     float: left;
+}
+
+.textItem {
+    padding: 5vw;
 }
